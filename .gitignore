@@ -1,0 +1,18 @@
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.fdb_latexmk
+*.fls
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+
+# Windows
+desktop.ini
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
