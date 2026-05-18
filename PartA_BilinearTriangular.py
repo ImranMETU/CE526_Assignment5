@@ -414,9 +414,9 @@ def plot_1d_side_views(nodes, U):
     rows_to_plot = [-1.0, 0.0, 1.0]
 
     filename_map = {
-        -1.0: "partA_side_y_minus1.png",
-         0.0: "partA_side_y_0.png",
-         1.0: "partA_side_y_1.png",
+        -1.0: "images/partA_side_y_minus1.png",
+         0.0: "images/partA_side_y_0.png",
+         1.0: "images/partA_side_y_1.png",
     }
 
     figures = []
@@ -499,7 +499,7 @@ def plot_2d_nodal_map(nodes, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partA_2D_nodal_map.png", dpi=300)
+        fig.savefig("images/partA_2D_nodal_map.png", dpi=300)
 
     return fig, ax
 
@@ -527,7 +527,7 @@ def plot_2d_contour(nodes, elements, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partA_2D_contour.png", dpi=300)
+        fig.savefig("images/partA_2D_contour.png", dpi=300)
 
     return fig, ax
 
@@ -558,7 +558,7 @@ def plot_3d_surface(nodes, elements, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partA_3D_points_only.png", dpi=300)
+        fig.savefig("images/partA_3D_points_only.png", dpi=300)
 
     return fig, ax
 

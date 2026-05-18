@@ -426,7 +426,7 @@ def plot_1d_side_views(nodes, U):
         fig.tight_layout()
 
         if SAVE_FIGURES:
-            filename = f"side_view_y_{int(y_value)}_points_only.png"
+            filename = f"images/side_view_y_{int(y_value)}_points_only.png"
             fig.savefig(filename, dpi=300)
 
         figures.append((fig, ax))
@@ -466,7 +466,7 @@ def plot_2d_nodal_map(nodes, elements, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partB_2D_nodal_map.png", dpi=300)
+        fig.savefig("images/partB_2D_nodal_map.png", dpi=300)
 
     return fig, ax
 
@@ -506,7 +506,7 @@ def plot_2d_cell_average_map(nodes, elements, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partB_2D_cell_average_map.png", dpi=300)
+        fig.savefig("images/partB_2D_cell_average_map.png", dpi=300)
 
     return fig, ax
 
@@ -538,7 +538,7 @@ def plot_3d_points_only(nodes, U):
     fig.tight_layout()
 
     if SAVE_FIGURES:
-        fig.savefig("partB_3D_points_only.png", dpi=300)
+        fig.savefig("images/partB_3D_points_only.png", dpi=300)
 
     return fig, ax
 
